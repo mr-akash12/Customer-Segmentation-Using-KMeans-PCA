@@ -52,7 +52,7 @@ The dataset contains customer attributes such as:
 
 ## 📸 Website Preview
 Here are some snapshots of the aWebsite:
-![image alt](https://github.com/mr-akash12/Customer-Segmentation-Using-KMeans-PCA/upload/main)
+![image alt](https://github.com/mr-akash12/Customer-Segmentation-Using-KMeans-PCA/blob/main/Screenshot%202025-09-28%20035113.png)
 
 
 
