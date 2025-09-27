@@ -1,88 +1,60 @@
-# Customer-Segmentation-Using-KMeans-PCA
+# 🛍️ Customer Segmentation using K-Means and PCA
 📌 Project Description : This project demonstrates how unsupervised learning techniques can uncover hidden customer segments from raw behavioral data. By applying KMeans clustering and Principal Component Analysis (PCA), we identify distinct customer groups that can inform targeted marketing, personalized services, and strategic decision-making.
 
 
-# 🚀 Key Features
+## 🚀 Key Features
+- Preprocessed raw customer dataset (handling missing values, scaling).  
+- Applied **K-Means clustering** to segment customers.  
+- Used **PCA** for visualization of high-dimensional data in 2D space.  
+- Built an **interactive Streamlit app** for real-time segmentation
 
-Preprocessed raw customer dataset (handling missing values, scaling).
+## 📂 Dataset
+The dataset contains customer attributes such as:  
+- Age  
+- Annual Income  
+- Spending Score  
+- Total Spending  
+- Purchase behavior (online/store)  
+- Recency (last purchase)  
 
-Applied K-Means clustering to segment customers.
 
-Used PCA for visualization of high-dimensional data in 2D space.
 
-Built an interactive Streamlit app for real-time segmentation.
 
-# 📂 Dataset
+## 🛠️ Tech Stack
+- **Python** 🐍  
+- **Libraries:** `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `joblib`  
+- **Dimensionality Reduction:** PCA  
+- **Clustering Algorithm:** K-Means  
+- **Deployment:** Streamlit 
+-----
 
-The dataset contains customer attributes such as:
+## 📊 Workflow
+### 🔹 Data Preprocessing
+- Handle missing values  
+- Standardize features with `StandardScaler`  
 
-Age
+### 🔹 Feature Selection
+- Removed irrelevant columns (e.g., IDs)  
+- Selected relevant features for clustering  
 
-Annual Income
+### 🔹 Clustering with K-Means
+- Used **Elbow Method** & **Silhouette Score** to choose optimal clusters  
+- Assigned cluster labels to each customer  
 
-Spending Score
+### 🔹 PCA for Visualization
+- Reduced dimensions to **2 components**  
+- Visualized clusters in **2D**  
 
-Total Spending
+### 🔹 Deployment
+- Saved model & scaler (`kmeans_model.pkl`, `scaler.pkl`)  
+- Built **Streamlit app** for predictions  
 
-Purchase behavior (online/store)
 
-Recency (last purchase)
+## 📸 Website Preview
+Here are some snapshots of the aWebsite:
+![image alt](https://github.com/mr-akash12/Credit-Risk-Analysis-Loan-Approval-Prediction/blob/main/Screenshot%202025-09-26%20022724.png)
 
-# 👉 You can use the Mall Customers Dataset or any retail dataset.
-(Replace with your dataset link: e.g., Mall Customers Dataset on Kaggle
-)
 
-# 🛠️ Tech Stack
-
-Python 🐍
-
-Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, joblib
-
-Dimensionality Reduction: PCA
-
-Clustering Algorithm: K-Means
-
-Deployment: Streamlit
-
-# 📊 Workflow
-
-Data Preprocessing
-
-Handle missing values
-
-Standardize features with StandardScaler
-
-Feature Selection
-
-Removed irrelevant columns (e.g., IDs)
-
-Selected relevant features for clustering
-
-Clustering with K-Means
-
-Used Elbow Method & Silhouette Score to choose optimal clusters
-
-Assigned cluster labels to each customer
-
-PCA for Visualization
-
-Reduced dimensions to 2 components
-
-Visualized clusters in 2D
-
-Deployment
-
-Saved model & scaler (kmeans_model.pkl, scaler.pkl)
-
-Built Streamlit app for predictions
-
-# 📷 Visualizations
-
-Elbow Method Plot (to determine optimal k)
-
-PCA Scatter Plot (clusters visualized in 2D)
-
-Cluster Insights (spending vs income, age distribution, etc.)
 
 (Add screenshots here)
 
