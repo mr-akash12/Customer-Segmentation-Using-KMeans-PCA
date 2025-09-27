@@ -52,7 +52,7 @@ The dataset contains customer attributes such as:
 
 ## 📸 Website Preview
 Here are some snapshots of the aWebsite:
-![image alt](https://github.com/mr-akash12/Credit-Risk-Analysis-Loan-Approval-Prediction/blob/main/Screenshot%202025-09-26%20022724.png)
+![image alt](https://github.com/mr-akash12/Customer-Segmentation-Using-KMeans-PCA/upload/main)
 
 
 
@@ -76,8 +76,11 @@ streamlit run app.py
 
 
 Cluster 0: 🛍️ High spenders
+
 Cluster 1: 💻 Digital shoppers
+
 Cluster 2: 🧊 Low engagement
+
 Cluster 3: 📉 Drop-off
 
 ## 🌟 Future Improvements
